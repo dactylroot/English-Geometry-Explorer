@@ -1,7 +1,11 @@
 #! /usr/bin/env python
-""" Using a dictionary of newline-separated words, return the longest string
+""" Use suffix tries to generate English-language analogues of x86-64 
+    byteword geometry. Illustrates the way a processor (human)
+    parses (reads) instructions (words) from bytecode (alphabet strings).
+    
+    Using a dictionary of newline-separated words, return the longest string
     of geometrically-overlapping sequences.
-    Each sequence is distinct (no ambiguous or overlapping words.)
+    Each sequence may not be distinct (possibly ambiguous word endings.)
 
     If a dictionary takes too long, try checking for a higher number of
     sequences. This reduces the search space.
